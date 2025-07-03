@@ -1,26 +1,36 @@
 # NextJS Lite Boilerplate
 
+<p align="center">
+  <a href="https://nextjs-lite.vercel.app">
+    <img
+      src="public/og.png?raw=true"
+      alt="NextJS Lite Bolierplate banner"
+      style="max-width: 100%; height: auto;"
+    />
+  </a>
+</p>
+
 ### Features
 
 Optimized for developer experience with an extremely flexible code structure. Only includes what you actually need:
 
 * ⚡ [Next.js](https://nextjs.org) with App Router
 * 🔥 Type checking using [TypeScript](https://www.typescriptlang.org)
-  * 💡 Absolute Imports using `@` prefix
-  * ✅ Strict Mode for both TypeScript and React 19
+    * 💡 Absolute Imports using `@` prefix
+    * ✅ Strict Mode for both TypeScript and React 19
 * 💎 Integrated with [Tailwind CSS](https://tailwindcss.com)
 * 📏 Linting via [ESLint](https://eslint.org)
-  * Uses default Next.js config, Core Web Vitals rules, Tailwind CSS rules, and Antfu config
-  * Code formatting with [ESLint Stylistic](https://eslint.style/)
-    and [eslint-plugin-better-tailwindcss](https://github.com/schoero/eslint-plugin-better-tailwindcss)
+    * Uses default Next.js config, Core Web Vitals rules, Tailwind CSS rules, and Antfu config
+    * Code formatting with [ESLint Stylistic](https://eslint.style/)
+      and [eslint-plugin-better-tailwindcss](https://github.com/schoero/eslint-plugin-better-tailwindcss)
 * 🦊 Git Hooks managed with Lefthook (as a replacement for Husky)
-  * 🚓 Commit message linting with Commitlint
-  * 📓 Write standard-compliant commit messages with Commitizen
+    * 🚓 Commit message linting with Commitlint
+    * 📓 Write standard-compliant commit messages with Commitizen
 * 🔍 Detect unused files and dependencies with Knip
 * 🦺 Unit testing with Vitest (including browser mode)
 * 💯 Optimized for high Lighthouse scores
-  * ⚙️ [Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-  * 🤖 SEO features including sitemap.xml, robots.txt, SEO metadata, JSON-LD, and Open Graph tags
+    * ⚙️ [Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+    * 🤖 SEO features including sitemap.xml, robots.txt, SEO metadata, JSON-LD, and Open Graph tags
 * 👷 Automated dependency updates with Dependabot
 
 ### Differences from [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)
