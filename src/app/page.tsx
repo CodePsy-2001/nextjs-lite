@@ -26,8 +26,9 @@ export default function Home() {
         />
         <ol
           className={`
-            list-inside list-decimal text-center text-sm/6
+            list-inside list-decimal text-center
             font-[family-name:var(--font-geist-mono)]
+            text-sm/6
             sm:text-left
           `}
         >
@@ -36,8 +37,9 @@ export default function Home() {
             {' '}
             <code
               className={`
-                rounded bg-black/[.05] px-1 py-0.5 font-semibold
+                rounded bg-black/[.05] px-1 py-0.5
                 font-[family-name:var(--font-geist-mono)]
+                font-semibold
                 dark:bg-white/[.06]
               `}
             >
